@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul.navbar
+{
+list-style-type:none;
+margin:0;
+padding:0;
+overflow:hidden;
+}
+li
+{
+float:left;
+}
+a:link,a:visited
+{
+display:block;
+width:120px;
+height:25px;
+font-weight:bold;
+font-size:16px;
+color:#2952CC;
+background-color:#EFF7FF;
+text-align:center;
+padding:4px;
+text-decoration:none;
+
+}
+
+a.strings
+{
+color:#FFFFFF;
+background-color:#003399;
+font-size:20px;
+font-family:sans-serif;
+}
+
+a.strings:hover
+{
+background-color:#003399;
+}
+
+a:hover,a:active
+{
+background-color:#94B8FF;
+}
+
+div.el
+{
+width:100%;
+max-width:800px;
+padding:10px;
+border:2px solid #C6E2FF;
+margin:1px 20px;
+}
+
+span
+{
+color:#FFFFFF;
+background-color:#CDCDCD;
+border: 1px solid #BCBCBC;
+margin:0px 5px;
+padding:1px;
+}
+
+
+</style>
+</head>
+
+<body>
+<ul class='navbar'>
+<li><a class='strings' href="/">Strings</a></li>
+<li><a href="/journal">Journal</a></li>
+<li><a href="/threads">Tasks</a></li>
+<li><a href="">Settings</a></li>
+</ul>
+<br>
+
+<h3> Week 42 </h3>
+<div class="el"><span>The</span> The picture above is 250px wide.
+ total width of this element is also 250px.</div>
+ <div class="el">The picture above is 250px wide.
+ The total width of this element is also 250px.</div>
+</body>
+</html>
+<!-- vim: set filetype=idl : -->
