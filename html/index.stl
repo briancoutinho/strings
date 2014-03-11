@@ -51,7 +51,8 @@ div.el
 width:100%;
 max-width:800px;
 padding:10px;
-border:2px solid #C6E2FF;
+background-color:#EEF6FF;
+border:1px solid #FFFFFF;
 margin:1px 20px;
 }
 
@@ -82,6 +83,15 @@ padding:1px;
  total width of this element is also 250px.</div>
  <div class="el">The picture above is 250px wide.
  The total width of this element is also 250px.</div>
+
+ <br>
+
+    <form action="list" method="post">
+         Item=
+         Tag : <input name=tag type="text"/> 
+         text  : <input name=value  type="text"/> 
+         <input value"Add" type="submit"/>
+    </form>
 </body>
 </html>
 <!-- vim: set filetype=idl : -->
