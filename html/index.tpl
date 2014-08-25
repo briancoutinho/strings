@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+<title> {{user}} </title>
+<script src='/html/jquery-1.11.0.js'></script>
+<script src='/html/app.js'></script>
 <style>
 
 
@@ -56,7 +59,15 @@
 
 #content {
     border: 1px solid;
+    margin: 0px;
+    padding: 2em;
     clear: both;
+}
+
+#journal {
+    border: 1px solid;
+    overflow: scroll;
+    overflow-x: auto;
 }
 
 h1 {
@@ -64,9 +75,7 @@ h1 {
     padding: 0 0 1em 0;
 }
  
-</style>
-</head>
-
+</style> </head> 
 <body>
 
 <div id="container">
@@ -74,9 +83,9 @@ h1 {
 <div id="header"> 
     <h1> Tabs </h1>
     <ul>
-        <li id="selected"><a href="/journal">Journal</a></li>
-        <li><a href="/threads">Threads</a></li>
-        <li><a href="">Settings</a></li>
+        <li id="selected"><a>Journal</a></li>
+        <li><a>Threads</a></li>
+        <li><a>Settings</a></li>
     </ul>
     
 </div>
@@ -84,6 +93,7 @@ h1 {
 
 <div id="content">
 
+    <div id="journal">
     <h3> Week 42 </h3>
     <div class="el"><span>The</span> The picture above is 250px wide.
      total width of this element is also 250px.</div>
@@ -98,7 +108,7 @@ h1 {
              text  : <input name=value  type="text"/> 
              <input value"Add" type="submit"/>
         </form>
-    
+    </div>
 </div> 
 
 </div>
